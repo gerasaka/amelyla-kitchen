@@ -1,0 +1,57 @@
+/* Header */
+header {
+  height: 100px;
+  background-color: aqua;
+}
+/* Header */
+
+/* Home */
+#home {
+  height: 100vh;
+  background-color: beige;
+}
+/* Home */
+
+/* Intro */
+#intro {
+  height: 100vh;
+  background-color: brown;
+}
+/* Intro */
+
+/* Menu */
+#menu {
+  height: 100vh;
+  background-color: teal;
+}
+/* Menu */
+
+/* Kitchen */
+#kitchen {
+  height: 100vh;
+  background-color: cornflowerblue;
+}
+
+.chef-container {
+  display: flex;
+}
+
+.chef {
+  height: 100px;
+  width: 100px;
+}
+/* Kitchen */
+
+/* About */
+#about {
+  height: 100vh;
+  background-color: darkgreen;
+}
+/* About */
+
+/* Footer */
+footer {
+  height: 100px;
+  background-color: darkorange;
+}
+/* Footer */
