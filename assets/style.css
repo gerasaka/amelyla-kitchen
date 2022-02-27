@@ -1,3 +1,7 @@
+h1 {
+  font-size: 72px;
+}
+
 /* Header */
 header {
   height: 100px;
@@ -8,7 +12,28 @@ header {
 /* Home */
 #home {
   height: 100vh;
-  background-color: beige;
+  background-color: floralwhite;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 60px;
+  align-content: center;
+}
+
+.hero {
+  position: relative;
+  z-index: 10;
+}
+
+.hero-text {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.blob {
+  position: absolute;
+  height: 550px;
+  margin-left: -100px;
 }
 /* Home */
 
