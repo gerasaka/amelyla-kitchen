@@ -3,9 +3,56 @@
 * {
   margin: 0;
   padding: 0;
+  text-decoration: none;
 }
 
 body {
   background-color: #fffaf0;
   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
 }
+
+/* HEADER */
+header {
+  margin: 0.625em;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 4.5em;
+}
+
+.nav--link {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+
+  font-weight: bold;
+}
+
+.nav--link > a {
+  color: #6c6c6c;
+}
+
+.order-button {
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+
+  padding: 0.2em 0.625em;
+  border: none;
+  border-radius: 1.5em;
+  background-color: #f0565c;
+  color: #fffaf0;
+}
+
+.icon {
+  height: 1.5em;
+}
+/* HEADER */
