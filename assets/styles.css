@@ -56,3 +56,30 @@ nav {
   height: 1.5em;
 }
 /* HEADER */
+
+/* HERO */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: -3em 1.25em auto;
+}
+
+.hero--image {
+  width: 20em;
+}
+
+.hero--blob {
+  width: 30em;
+  position: absolute;
+  z-index: -10;
+}
+
+.hero--text {
+  font-size: 2em;
+  text-align: center;
+
+  margin-top: -0.25em;
+}
+/* HERO */
