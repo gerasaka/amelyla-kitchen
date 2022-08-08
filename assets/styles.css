@@ -12,6 +12,13 @@ body {
   font-size: 16px;
 }
 
+main {
+  margin: auto 1.25em;
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+}
+
 /* HEADER */
 header {
   margin: 0.625em;
@@ -63,7 +70,7 @@ nav {
   flex-direction: column;
   align-items: center;
 
-  margin: -3em 1.25em auto;
+  margin-top: -3em;
 }
 
 .hero--image {
@@ -83,3 +90,31 @@ nav {
   margin-top: -0.25em;
 }
 /* HERO */
+
+/* QUOTE */
+.quote--text {
+  text-align: center;
+  color: #787878;
+  font-style: italic;
+  font-weight: 300;
+
+  margin: 0.75em auto;
+}
+
+.quote--deco {
+  height: 2.375em;
+  background-color: #f0565c;
+  width: 1.75em;
+}
+.quote-top {
+  border-radius: 3em 0.75em 1.75em 0.75em;
+  margin-left: 0.5em;
+}
+
+.quote-bottom {
+  border-radius: 1.75em 0.75em 3em 0.75em;
+
+  margin-right: 0.5em;
+  margin-left: auto;
+}
+/* QUOTE */
