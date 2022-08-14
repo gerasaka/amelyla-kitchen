@@ -186,6 +186,7 @@ nav {
 }
 /* MENU */
 
+/* ILLUSTRATION */
 .illustration--container {
   display: flex;
   flex-direction: column;
@@ -214,3 +215,26 @@ nav {
 .illustration-desc > span {
   color: #f0565c;
 }
+/* ILLUSTRATION */
+
+/* FOOTER */
+footer {
+  position: relative;
+}
+
+footer > img {
+  display: block;
+  /* height: 6.25em; */
+  width: 100%;
+}
+
+footer > p {
+  color: #fffaf0;
+  position: absolute;
+
+  bottom: 0.2em;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+/* FOOTER */
