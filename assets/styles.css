@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300&display=swap');
 
+html {
+  background-color: #6c6c6c;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +14,9 @@ body {
   background-color: #fffaf0;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
+
+  margin: auto;
+  max-width: 400px;
 }
 
 main {
@@ -178,3 +185,32 @@ nav {
   margin-top: 1em;
 }
 /* MENU */
+
+.illustration--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  align-self: center;
+  gap: 2.25em;
+}
+
+.illustration--item {
+  width: 80%;
+}
+
+.illustration-image {
+  height: 10em;
+  display: block;
+  margin: auto;
+}
+
+.illustration-desc {
+  text-align: center;
+  color: #787878;
+}
+
+.illustration-desc > span {
+  color: #f0565c;
+}
