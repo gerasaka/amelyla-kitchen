@@ -15,7 +15,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
 
-  margin: auto;
+  margin: 0 auto;
   max-width: 400px;
 }
 
@@ -24,6 +24,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 3em;
+  align-items: center;
 }
 
 .section-title {
@@ -33,7 +34,7 @@ main {
 
 /* HEADER */
 header {
-  margin: 0.625em;
+  padding: 0.625em;
 }
 
 nav {
@@ -273,3 +274,42 @@ footer > p {
   top: 50%;
 }
 /* HERO ABOUT */
+
+/* KITCHEN */
+.kitchen {
+  position: relative;
+  width: calc(100% + 1.25em * 2);
+}
+
+.chef--wrapper {
+  background-color: #f0565c;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.chef--container {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+.chef {
+  width: 6em;
+  border-radius: 50%;
+}
+
+.chef-name {
+  font-weight: 300;
+  color: #e1c8ff;
+}
+
+.chef-desc {
+  color: #fffaf0;
+  font-size: 0.7em;
+}
+
+.kitchen-deco {
+  display: block;
+}
+/* KITCHEN */
