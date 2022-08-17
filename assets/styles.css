@@ -30,6 +30,7 @@ main {
 .section-title {
   font-weight: 500;
   text-align: center;
+  margin-bottom: 1.5em;
 }
 
 /* HEADER */
@@ -221,6 +222,7 @@ nav {
 /* FOOTER */
 footer {
   position: relative;
+  font-size: 0.7em;
 }
 
 footer > img {
@@ -233,7 +235,7 @@ footer > p {
   color: #fffaf0;
   position: absolute;
 
-  bottom: 0.2em;
+  bottom: 0.65em;
   left: 0;
   right: 0;
   text-align: center;
@@ -313,3 +315,25 @@ footer > p {
   display: block;
 }
 /* KITCHEN */
+
+/* PROFILE */
+.profile {
+  text-align: center;
+}
+
+.profile-image {
+  width: 6em;
+  border-radius: 50%;
+}
+
+.profile-name {
+  font-size: 1.25em;
+  font-weight: 500;
+  color: #9e76dd;
+  margin: 0.25em auto 0.625em;
+}
+
+.profile-desc {
+  font-size: 0.7em;
+}
+/* PROFILE */
