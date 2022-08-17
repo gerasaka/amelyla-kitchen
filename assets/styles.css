@@ -8,6 +8,7 @@ html {
   margin: 0;
   padding: 0;
   text-decoration: none;
+  color: inherit;
 }
 
 body {
@@ -35,6 +36,8 @@ main {
 
 /* HEADER */
 header {
+  position: relative;
+  z-index: 20;
   padding: 0.625em;
 }
 
@@ -54,9 +57,6 @@ nav {
   align-items: center;
 
   font-weight: bold;
-}
-
-.nav--link > a {
   color: #6c6c6c;
 }
 
@@ -89,12 +89,12 @@ nav {
 
 .hero--image {
   width: 20em;
+  z-index: 10;
 }
 
 .hero--blob {
   width: 30em;
   position: absolute;
-  z-index: -10;
 }
 
 .hero--text {
