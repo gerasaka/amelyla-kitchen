@@ -4,6 +4,10 @@ main {
   gap: 4em;
 }
 
+.section-title {
+  margin-bottom: 2em;
+}
+
 /* HEADER */
 header {
   padding: 0.625em;
@@ -44,3 +48,33 @@ a[href='#menu'] {
   border-radius: 1.75em 0.75em 3em 0.75em;
 }
 /* QUOTE */
+
+/* MENU */
+.menu--container {
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu--item {
+  width: 70%;
+  flex: 1 1 0;
+}
+.menu--image-container {
+  height: 10em;
+}
+
+.menu--custom-title {
+  font-size: 1.6em;
+}
+
+.menu--custom-desc {
+  font-size: 1.2em;
+}
+/* MENU */
+
+/* ILLUSTRATION */
+.illustration--container {
+  flex-direction: column;
+  align-items: center;
+}
+/* ILLUSTRATION */
