@@ -1,0 +1,46 @@
+main {
+  margin-left: 1.25em;
+  margin-right: 1.25em;
+  gap: 4em;
+}
+
+/* HEADER */
+header {
+  padding: 0.625em;
+}
+
+.logo {
+  width: 4.5em;
+}
+
+a[href='#menu'] {
+  display: none;
+}
+/* HEADER */
+
+/* HERO */
+.hero {
+  flex-direction: column;
+}
+
+.hero--text {
+  font-weight: 500;
+  font-size: 2em;
+}
+/* HERO */
+
+/* QUOTE */
+.quote-top,
+.quote-bottom {
+  height: 2.375em;
+  width: 1.75em;
+}
+
+.quote-top {
+  border-radius: 3em 0.75em 1.75em 0.75em;
+}
+
+.quote-bottom {
+  border-radius: 1.75em 0.75em 3em 0.75em;
+}
+/* QUOTE */
