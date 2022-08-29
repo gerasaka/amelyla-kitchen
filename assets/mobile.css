@@ -82,3 +82,13 @@ a[href='#menu'] {
   height: 10em;
 }
 /* ILLUSTRATION */
+
+/* FOOTER */
+footer {
+  font-size: 0.75em;
+}
+
+footer > p {
+  bottom: 0.65em;
+}
+/* FOOTER */

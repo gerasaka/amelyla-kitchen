@@ -209,7 +209,6 @@ nav {
 /* FOOTER */
 footer {
   position: relative;
-  font-size: 0.75em;
 }
 
 footer > img {
@@ -221,7 +220,6 @@ footer > p {
   color: #fffaf0;
   position: absolute;
 
-  bottom: 0.65em;
   left: 0;
   right: 0;
   text-align: center;
