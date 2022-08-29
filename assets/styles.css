@@ -186,7 +186,10 @@ nav {
 /* ILLUSTRATION */
 .illustration--container {
   display: flex;
+  flex-direction: column;
   gap: 2.25em;
+  align-items: center;
+  color: #787878;
 }
 
 .illustration--item {
@@ -194,17 +197,11 @@ nav {
 }
 
 .illustration-image {
-  height: 10em;
   display: block;
   margin: auto;
 }
 
-.illustration-desc {
-  text-align: center;
-  color: #787878;
-}
-
-.illustration-desc > span {
+.illustration--item > p > span {
   color: #f0565c;
 }
 /* ILLUSTRATION */

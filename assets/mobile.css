@@ -75,6 +75,10 @@ a[href='#menu'] {
 /* ILLUSTRATION */
 .illustration--container {
   flex-direction: column;
-  align-items: center;
+  text-align: center;
+}
+
+.illustration-image {
+  height: 10em;
 }
 /* ILLUSTRATION */

@@ -97,27 +97,23 @@ header {
 
 /* ILLUSTRATION */
 .illustration--container {
-  display: flex;
-  gap: 2.25em;
+  font-size: 1.5em;
+  text-align: left;
 }
 
 .illustration--item {
-  width: 80%;
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+
+.reverse-order {
+  flex-direction: row-reverse;
+  text-align: right;
 }
 
 .illustration-image {
-  height: 10em;
-  display: block;
-  margin: auto;
-}
-
-.illustration-desc {
-  text-align: center;
-  color: #787878;
-}
-
-.illustration-desc > span {
-  color: #f0565c;
+  height: 12em;
 }
 /* ILLUSTRATION */
 
