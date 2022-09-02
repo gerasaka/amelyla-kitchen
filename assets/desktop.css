@@ -62,6 +62,7 @@ header {
 /* MENU */
 .menu {
   width: 80%;
+  font-size: 1.2em;
 }
 
 .menu--container {
@@ -71,7 +72,10 @@ header {
 
 .menu--item {
   width: 30%;
-  font-size: 1.2em;
+}
+
+.menu--item:last-child {
+  margin-top: 2em;
 }
 
 .menu--details {
@@ -82,16 +86,12 @@ header {
   height: 11em;
 }
 
-.menu-title {
-  font-size: 1.5em;
-}
-
 .menu--custom-title {
-  font-size: 2em;
+  font-size: 1.6em;
 }
 
 .menu--custom-desc {
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
 /* MENU */
 

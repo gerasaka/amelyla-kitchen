@@ -135,7 +135,6 @@ nav {
 /* MENU */
 .menu--container {
   display: flex;
-  gap: 2.25em;
   text-align: left;
 }
 
@@ -303,7 +302,7 @@ footer > p {
   font-weight: 500;
 }
 
-.profile--wrapper > p {
+.profile--wrapper {
   color: #787878;
 }
 /* PROFILE */

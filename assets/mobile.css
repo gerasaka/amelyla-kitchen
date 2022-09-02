@@ -53,6 +53,7 @@ a[href='#menu'] {
 .menu--container {
   flex-direction: column;
   align-items: center;
+  gap: 2.25em;
 }
 
 .menu--item {
