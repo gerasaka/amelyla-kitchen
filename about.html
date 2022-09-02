@@ -5,6 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/styles.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 1023px)"
+      href="assets/mobile.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 1024px)"
+      href="assets/desktop.css"
+    />
     <title>About - Amelyla Kitchen</title>
   </head>
   <body>
@@ -18,8 +28,9 @@
           />
         </a>
         <div class="nav--link">
+          <a href="#menu">Menu</a>
           <a href="/about.html">About</a>
-          <a href="/#order" class="order-button">
+          <a href="#order" class="order-button">
             Order
             <img
               class="icon"
@@ -40,7 +51,7 @@
         <h1 class="hero-about--text">About Us</h1>
         <p class="hero-about--desc">get to know well about us</p>
       </article>
-      <article class="quote-about">
+      <article class="quote">
         <h2 class="section-title highlight">who we are</h2>
         <div class="quote--deco quote-top"></div>
         <p class="quote--text">
@@ -81,12 +92,17 @@
       </article>
       <aside class="profile">
         <h2 class="section-title highlight">about this website</h2>
-        <img src="assets/images/chefr.webp" alt="My profile picture" class="profile-image" />
-        <h3 class="profile-name">Gerry Julio</h3>
-        <p>
-          Website ini dibuat untuk melengkapi submission dicoding di kelas
-          Belajar Dasar Pemrogramman Web
-        </p>
+        <div class="profile--wrapper">
+          <div class="profile--container">
+            <img src="assets/images/chefr.webp" alt="My profile picture" class="profile-image" />
+            <h3 class="profile-name">Gerry Julio</h3>
+          </div>
+          <p>
+            Website ini dibuat untuk melengkapi submission dicoding di kelas
+            Belajar Dasar Pemrogramman Web. <br><br>
+            Teknologi dibalik website ini - HTML, CSS, JavaScript
+          </p>
+        </div>
       </aside>
     </main>
     <footer>

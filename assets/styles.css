@@ -2,6 +2,7 @@
 
 html {
   background-color: #6c6c6c;
+  overflow-x: hidden;
 }
 
 * {
@@ -266,19 +267,16 @@ footer > p {
 /* KITCHEN */
 .kitchen {
   position: relative;
-  width: calc(100% + 1.25em * 2);
+  width: 100vw;
 }
 
 .chef--wrapper {
   background-color: #f0565c;
   display: flex;
-  flex-direction: column;
-  gap: 3em;
 }
 
 .chef--container {
   text-align: center;
-  width: 80%;
   margin: auto;
   color: #fffaf0;
 }
@@ -291,7 +289,6 @@ footer > p {
 .profile-name {
   font-weight: 300;
   font-size: 1.5em;
-  margin: 0.3em auto;
   color: #e1c8ff;
 }
 
@@ -304,5 +301,9 @@ footer > p {
 .profile > .profile-name {
   color: #9e76dd;
   font-weight: 500;
+}
+
+.profile--wrapper > p {
+  color: #787878;
 }
 /* PROFILE */
