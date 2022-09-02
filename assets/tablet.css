@@ -1,18 +1,17 @@
 main {
-  width: 85%;
+  width: 90%;
   margin: auto auto 2em;
-  gap: 7em;
+  gap: 6em;
 }
 
 .section-title {
-  font-size: 2.5rem;
-  margin-bottom: 4rem;
+  font-size: 2rem;
+  margin-bottom: 3rem;
 }
 
 /* HEADER */
 header {
-  font-size: 18px;
-  padding: 1.2em 5em;
+  padding: 1em 2em;
 }
 
 .logo {
@@ -22,32 +21,26 @@ header {
 
 /* HERO */
 .hero {
-  width: 80%;
-  gap: 3em;
-  margin: 4em auto;
-}
-
-.hero--blob {
-  margin-left: -5em;
+  flex-direction: column;
+  margin: 2;
 }
 
 .hero--text {
-  font-size: 4em;
-  font-weight: 300;
-  text-align: left;
+  font-weight: 500;
+  font-size: 3em;
 }
 /* HERO */
 
 /* QUOTE */
 .quote {
   font-size: 1.5em;
-  padding: 0 5em;
+  padding: 0 1em;
 }
 
 .quote-top,
 .quote-bottom {
-  height: 3em;
-  width: 2em;
+  height: 2.375em;
+  width: 1.75em;
 }
 
 .quote-top {
@@ -60,11 +53,6 @@ header {
 /* QUOTE */
 
 /* MENU */
-.menu {
-  width: 80%;
-  font-size: 1.2em;
-}
-
 .menu--container {
   flex-wrap: wrap;
   justify-content: space-around;
@@ -78,16 +66,12 @@ header {
   margin-top: 2em;
 }
 
-.menu--details {
-  height: calc(100% - 12em);
-}
-
 .menu--image-container {
-  height: 9em;
+  height: 10em;
 }
 
 .menu--custom-title {
-  font-size: 1.6em;
+  font-size: 1.5em;
 }
 
 .menu--custom-desc {
@@ -97,7 +81,6 @@ header {
 
 /* ILLUSTRATION */
 .illustration--container {
-  font-size: 1.5em;
   text-align: left;
 }
 
@@ -120,6 +103,7 @@ header {
 /* FOOTER */
 footer {
   position: relative;
+  font-size: 0.7em;
 }
 
 footer > img {
@@ -133,14 +117,14 @@ footer > p {
 
 /* HERO ABOUT */
 .hero-about {
-  font-size: 2em;
+  font-size: 1.2em;
 }
 /* HERO ABOUT */
 
 /* KITCHEN */
 .chef--wrapper {
-  font-size: 1.2em;
-  justify-content: space-evenly;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .chef--container {
@@ -158,10 +142,6 @@ footer > p {
 /* KITCHEN */
 
 /* PROFILE */
-.profile {
-  font-size: 1.2em;
-}
-
 .profile--wrapper {
   display: flex;
   flex-direction: row-reverse;
@@ -170,10 +150,6 @@ footer > p {
   width: 80%;
   margin: auto;
   gap: 5em;
-}
-
-.profile--wrapper > p {
-  font-size: 1.25em;
 }
 
 .profile--container > .profile-name {
