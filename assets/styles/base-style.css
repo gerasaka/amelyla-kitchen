@@ -352,8 +352,8 @@ footer > p {
 
 .profile-name {
   font-weight: 300;
-  font-size: 1.5em;
   color: #e1c8ff;
+  margin: 0.5em auto;
 }
 
 .kitchen-deco {
