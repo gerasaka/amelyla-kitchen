@@ -1,46 +1,9 @@
 main {
-  width: 90%;
   margin: auto auto 2em;
-  gap: 6em;
-}
-
-.section-title {
-  font-size: 2rem;
-  margin-bottom: 3rem;
-}
-
-/* HEADER */
-header {
-  padding: 1em 2em;
 }
 
 .logo {
   width: 6em;
-}
-/* HEADER */
-
-/* HERO */
-.hero {
-  flex-direction: column;
-  margin: 2;
-}
-
-.hero--text {
-  font-weight: 500;
-  font-size: 2.5em;
-}
-/* HERO */
-
-/* QUOTE */
-.quote {
-  font-size: 1.3em;
-  padding: 0 1em;
-}
-
-.quote-top,
-.quote-bottom {
-  height: 2.375em;
-  width: 1.75em;
 }
 
 .quote-top {
@@ -50,9 +13,7 @@ header {
 .quote-bottom {
   border-radius: 1em 0.75em 3em 0.75em;
 }
-/* QUOTE */
 
-/* MENU */
 .menu--container {
   flex-wrap: wrap;
   justify-content: space-around;
@@ -66,28 +27,6 @@ header {
   margin-top: 2em;
 }
 
-.menu--image-container {
-  height: 10em;
-}
-
-.menu--custom-title {
-  font-size: 1.5em;
-}
-
-.menu--custom-desc {
-  font-size: 1.2em;
-}
-
-#order {
-  font-size: 1.1em;
-}
-
-#order input {
-  font-size: 0.8em;
-}
-/* MENU */
-
-/* ILLUSTRATION */
 .illustration--container {
   text-align: left;
 }
@@ -106,35 +45,20 @@ header {
 .illustration-image {
   height: 12em;
 }
-/* ILLUSTRATION */
 
-/* FOOTER */
 footer {
-  position: relative;
   font-size: 0.8em;
+}
+
+footer > p {
+  bottom: 1em;
 }
 
 footer > img {
   height: 10em;
 }
 
-footer > p {
-  bottom: 1em;
-}
-/* FOOTER */
-
-/* HERO ABOUT */
-.hero-about {
-  font-size: 1.2em;
-}
-/* HERO ABOUT */
-
 /* KITCHEN */
-.chef--wrapper {
-  flex-direction: row;
-  justify-content: space-around;
-}
-
 .chef--container {
   width: 20%;
 }

@@ -1,6 +1,5 @@
 main {
   width: 85%;
-  margin: auto auto 2em;
   gap: 7em;
 }
 
@@ -13,10 +12,6 @@ main {
 header {
   font-size: 18px;
   padding: 1.2em 5em;
-}
-
-.logo {
-  width: 6em;
 }
 /* HEADER */
 
@@ -49,33 +44,12 @@ header {
   height: 3em;
   width: 2em;
 }
-
-.quote-top {
-  border-radius: 3em 0.75em 1em 0.75em;
-}
-
-.quote-bottom {
-  border-radius: 1em 0.75em 3em 0.75em;
-}
 /* QUOTE */
 
 /* MENU */
 .menu {
   width: 80%;
   font-size: 1.2em;
-}
-
-.menu--container {
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.menu--item {
-  width: 30%;
-}
-
-.menu--item:last-child {
-  margin-top: 2em;
 }
 
 .menu--details {
@@ -90,10 +64,6 @@ header {
   font-size: 1.4em;
 }
 
-.menu--custom-desc {
-  font-size: 1em;
-}
-
 #order input {
   font-size: 0.75em;
 }
@@ -102,38 +72,8 @@ header {
 /* ILLUSTRATION */
 .illustration--container {
   font-size: 1.5em;
-  text-align: left;
-}
-
-.illustration--item {
-  display: flex;
-  align-items: center;
-  gap: 2em;
-}
-
-.reverse-order {
-  flex-direction: row-reverse;
-  text-align: right;
-}
-
-.illustration-image {
-  height: 12em;
 }
 /* ILLUSTRATION */
-
-/* FOOTER */
-footer {
-  position: relative;
-}
-
-footer > img {
-  height: 10em;
-}
-
-footer > p {
-  bottom: 1em;
-}
-/* FOOTER */
 
 /* HERO ABOUT */
 .hero-about {
@@ -146,34 +86,11 @@ footer > p {
   font-size: 1.2em;
   justify-content: space-evenly;
 }
-
-.chef--container {
-  width: 20%;
-}
-
-.profile-name {
-  margin: 0.5em auto 1em;
-}
-
-.kitchen-deco {
-  height: 15em;
-  width: 100vw;
-}
 /* KITCHEN */
 
 /* PROFILE */
 .profile {
   font-size: 1.2em;
-}
-
-.profile--wrapper {
-  display: flex;
-  flex-direction: row-reverse;
-  text-align: left;
-  align-items: center;
-  width: 80%;
-  margin: auto;
-  gap: 5em;
 }
 
 .profile--wrapper > p {
