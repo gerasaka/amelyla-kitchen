@@ -27,13 +27,13 @@ header {
 
 .hero--text {
   font-weight: 500;
-  font-size: 3em;
+  font-size: 2.5em;
 }
 /* HERO */
 
 /* QUOTE */
 .quote {
-  font-size: 1.5em;
+  font-size: 1.3em;
   padding: 0 1em;
 }
 
@@ -77,6 +77,14 @@ header {
 .menu--custom-desc {
   font-size: 1.2em;
 }
+
+#order {
+  font-size: 1.1em;
+}
+
+#order input {
+  font-size: 0.8em;
+}
 /* MENU */
 
 /* ILLUSTRATION */
@@ -103,7 +111,7 @@ header {
 /* FOOTER */
 footer {
   position: relative;
-  font-size: 0.7em;
+  font-size: 0.8em;
 }
 
 footer > img {

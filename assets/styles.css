@@ -185,7 +185,7 @@ nav {
 
 .menu--image-container:hover .menu--image {
   transform: scale(1.2);
-  box-shadow: 0px 0px 1em #f0565c;
+  box-shadow: 0px 0px 1em #edbeac;
 }
 
 .menu-price {
@@ -222,6 +222,12 @@ nav {
 
 #order input:focus {
   outline: #9e76dd solid 2px;
+}
+
+.count {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.75em;
 }
 
 hr {

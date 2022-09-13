@@ -75,17 +75,11 @@ a[href='#menu'] {
 }
 
 #order {
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 #order input {
-  font-size: 0.75em;
-}
-
-.count {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 0.75em;
+  font-size: 0.8em;
 }
 /* MENU */
 

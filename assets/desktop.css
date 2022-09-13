@@ -32,7 +32,7 @@ header {
 }
 
 .hero--text {
-  font-size: 4em;
+  font-size: 3em;
   font-weight: 300;
   text-align: left;
 }
@@ -87,11 +87,15 @@ header {
 }
 
 .menu--custom-title {
-  font-size: 1.6em;
+  font-size: 1.4em;
 }
 
 .menu--custom-desc {
-  font-size: 1.2em;
+  font-size: 1em;
+}
+
+#order input {
+  font-size: 0.75em;
 }
 /* MENU */
 
