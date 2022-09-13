@@ -339,8 +339,15 @@ footer > p {
 }
 
 .profile-image {
-  width: 10em;
+  width: 9em;
   border-radius: 50%;
+  transition: ease-in 0.3s;
+  filter: grayscale(1);
+}
+
+.profile-image:hover {
+  transform: scale(1.2);
+  filter: grayscale(0);
 }
 
 .profile-name {
@@ -355,7 +362,8 @@ footer > p {
 /* KITCHEN */
 
 /* PROFILE */
-.profile > .profile-name {
+.profile--container > .profile-name {
+  text-align: center;
   color: #9e76dd;
   font-weight: 500;
 }
