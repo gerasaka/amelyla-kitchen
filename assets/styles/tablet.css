@@ -17,7 +17,7 @@ header {
 /* HERO */
 .hero {
   flex-direction: column;
-  margin: 2;
+  margin: 2em;
 }
 
 .hero--text {

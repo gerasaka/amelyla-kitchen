@@ -3,6 +3,7 @@
 html {
   background-color: #787878;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 * {
@@ -228,6 +229,11 @@ nav {
   display: flex;
   justify-content: space-between;
   margin-bottom: 0.75em;
+}
+
+.count:nth-child(1) {
+  font-size: 0.8em;
+  color: #f49773;
 }
 
 hr {
