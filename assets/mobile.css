@@ -10,6 +10,7 @@ main {
 
 /* HEADER */
 header {
+  font-size: 0.9em;
   padding: 0.625em;
 }
 
@@ -54,6 +55,7 @@ a[href='#menu'] {
   flex-direction: column;
   align-items: center;
   gap: 2.25em;
+  font-size: 0.9em;
 }
 
 .menu--item {
@@ -65,11 +67,25 @@ a[href='#menu'] {
 }
 
 .menu--custom-title {
-  font-size: 1.6em;
+  font-size: 1.5em;
 }
 
 .menu--custom-desc {
   font-size: 1.2em;
+}
+
+#order {
+  font-size: 1.2em;
+}
+
+#order input {
+  font-size: 0.75em;
+}
+
+.count {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.75em;
 }
 /* MENU */
 
